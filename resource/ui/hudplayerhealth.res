@@ -26,8 +26,8 @@
 		"zpos"			"4"
 		"wide"			"51"
 		"tall"			"51"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
@@ -38,10 +38,10 @@
 		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"55"
+		"tall"			"55"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -71,37 +71,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
-		"ypos"			"0"	[$WIN32]
+		"xpos"			"76"
+		"xpos_minmode"	"61"
+		"ypos"			"52"	[$WIN32]
+		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"50"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"TeamMenuBold"
-		"fgcolor"		"255 255 255 255"
+		"font"			"HudClassHealth"
+		"fgcolor"		"TanDark"
 	}
-	
-	"PlayerStatusHealthValueBG"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"2"
-		"ypos"			"2"	[$WIN32]
-		"zpos"			"3"
-		"wide"			"250"
-		"tall"			"120"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"TeamMenuBold"
-		"fgcolor"		"0 0 0 255"
-	}
-	
-	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -111,10 +94,10 @@
 		"ypos"			"20"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
 		"font"			"DefaultSmall"

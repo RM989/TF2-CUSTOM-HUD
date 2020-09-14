@@ -36,7 +36,7 @@
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"73"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"9999"
 		"zpos"			"3"
 		"wide"			"0"
 		"tall"			"0"

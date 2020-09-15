@@ -73,11 +73,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
+		"ypos"			"0"	[$WIN32]
 		"wide"			"f0"
-		"tall"			"100"
+		"tall"			"480"
 	}
 	
 	HudDemomanCharge
